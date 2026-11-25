@@ -1,4 +1,10 @@
+# Downloaded from GEO by src/load_data.py
 data/*.xlsx
 data/*.txt.gz
+
+# Derived matrices, regenerable by src/load_data.py
+data/expression.csv
+data/expr_log2.csv
+
 __pycache__/
 *.pyc
